@@ -1,0 +1,21 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 5rem;
+  color: #521751;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
