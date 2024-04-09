@@ -21,4 +21,4 @@ Al seleccionar por un nombre, el usuario verà inmediatamente en la parte inferi
 
 ## Vistazo a la página web
 
-[https://check-in-with-qr.vercel.app/](https://colombia-presidents.vercel.app/)
+[https://colombia-presidents.vercel.app/](https://colombia-presidents.vercel.app/) 
