@@ -32,12 +32,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const presidentInfoContainer = document.getElementById('president-info');
     presidentInfoContainer.innerHTML = `
    
-      <img class="mx-auto max-h-[40px] max-w-[40px]" src="${president.image}" alt="${president.name}">
-      <h2>${president.name} ${president.lastName}</h2>
-      <p><strong>Periodo:</strong> ${president.startPeriodDate} - ${president.endPeriodDate}</p>
-      <p><strong>Partido Político:</strong> ${president.politicalParty}</p>
-      <p><strong>Descripción:</strong> ${president.description}</p>
-      <p><strong>Ciudad de Nacimiento:</strong> <span id="city-name">${cityId ? 'Cargando...' : 'No especificada'}</span></p>
+      <img style="max-width:100px" class="mx-auto mb-5 rounded" src="${president.image}" alt="${president.name}">
+      <h2 class="mb-2 font-bold">${president.name} ${president.lastName}</h2>
+      <p class="mb-2"><strong>Periodo:</strong> ${president.startPeriodDate} - ${president.endPeriodDate}</p>
+      <p class="mb-2"><strong>Partido Político:</strong> ${president.politicalParty}</p>
+      <p class="mb-2"><strong>Descripción:</strong> ${president.description}</p>
+      <p class="mb-2"><strong>Ciudad de Nacimiento:</strong> <span id="city-name">${cityId ? 'Cargando...' : 'No especificada'}</span></p>
     `;
 
    
