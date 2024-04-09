@@ -11,13 +11,14 @@ Al seleccionar por un nombre, el usuario verà inmediatamente en la parte inferi
 
 ## Tecnologías implementadas y API`s utilizadas
 - Vanilla JavaScript
+- Tailwind CSS
 - https://api-colombia.com/
 - [/api/v1/President/{id}](https://api-colombia.com/api/v1/President) President information by Id
 - [/api/v1/City/{cityId}](https://api-colombia.com/api/v1/City) City information by Id
 
 
 ## Características
-- Responsive Landing Page
+- Responsive Design
 
 ## Vistazo a la página web
 
