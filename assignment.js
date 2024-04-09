@@ -40,7 +40,6 @@ document.addEventListener('DOMContentLoaded', function () {
       <p class="mb-2"><strong>Ciudad de Nacimiento:</strong> <span id="city-name">${cityId ? 'Cargando...' : 'No especificada'}</span></p>
     `;
 
-   
     if (cityId) {
       fetch(`https://api-colombia.com/api/v1/City/${cityId}`)
         .then(response => response.json())
