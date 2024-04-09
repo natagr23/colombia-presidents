@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-
   fetch('https://api-colombia.com/api/v1/President')
     .then(response => response.json())
     .then(data => {
@@ -30,6 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function showPresidentInfo(president, cityId) {
     const presidentInfoContainer = document.getElementById('president-info');
+    presidentInfoContainer.classList.remove('hidden'); 
     presidentInfoContainer.innerHTML = `
    
       <img style="max-width:100px" class="mx-auto mb-5 rounded" src="${president.image}" alt="${president.name}">
