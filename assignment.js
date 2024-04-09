@@ -31,7 +31,8 @@ document.addEventListener('DOMContentLoaded', function () {
   function showPresidentInfo(president, cityId) {
     const presidentInfoContainer = document.getElementById('president-info');
     presidentInfoContainer.innerHTML = `
-      <img src="${president.image}" alt="${president.name}">
+   
+      <img class="mx-auto max-h-[40px] max-w-[40px]" src="${president.image}" alt="${president.name}">
       <h2>${president.name} ${president.lastName}</h2>
       <p><strong>Periodo:</strong> ${president.startPeriodDate} - ${president.endPeriodDate}</p>
       <p><strong>Partido Político:</strong> ${president.politicalParty}</p>

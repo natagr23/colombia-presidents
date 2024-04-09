@@ -6,14 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Prueba Frontend Junior Eatcloud</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+ 
   <script src="assignment.js" defer></script>
 </head>
 
 <body>
-  <h1>Prueba Frontend Junior Eatcloud</h1>
-  <select id="presidents-select"> <option value="" selected>Seleccionar</option></select>
-  <div id="president-info" class="card"></div>
+  <div class="mx-auto flex flex-col justify-between p-5 gap-5 text-sm text-slate-400 bg-indigo-200">
+  <h1 class="font-bold text-lg">Prueba Frontend Junior Eatcloud</h1>
+  <select id="presidents-select" class="font-bold text-md leading-5 py-1 cursor-pointer shadow"> <option class="cursor-pointer shadow" value="" selected>Seleccionar</option></select>
+  <div id="president-info" class="card mx-auto bg-white rounded-xl shadow gap-6 p-5"></div>
+</div>
 </body>
 
 </html>
