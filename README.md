@@ -13,7 +13,7 @@ Al seleccionar por un nombre, el usuario verà inmediatamente en la parte inferi
 - Vanilla JavaScript
 - https://api-colombia.com/
 - [/api/v1/President/{id}](https://api-colombia.com/api/v1/President) President information by Id
-- [/api/v1/City/{cityId}](https://api-colombia.com/api/v1/President) City information by Id
+- [/api/v1/City/{cityId}](https://api-colombia.com/api/v1/City) City information by Id
 
 
 ## Características
